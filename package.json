@@ -1,0 +1,17 @@
+{
+  "name": "zappy_design",
+  "version": "1.0.0",
+  "description": "zappy_design",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean && style-dictionary build",
+    "clean": "style-dictionary clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lodash": "^4.17.21",
+    "style-dictionary": "^2.10.3"
+  }
+}
